@@ -1,7 +1,19 @@
 {
-  "mappings": [
-    "/content/pbakliwal/eds-crosswalk-source/:/",
-    "/content/pbakliwal/eds-crosswalk-source/metadata.json:/metadata.json",
-    "/content/pbakliwal/eds-crosswalk-source/redirects.json:/redirects.json"
-  ]
+    "mappings": [
+      "/content/pbakliwal/watch-test-4/:/",
+      "/content/pbakliwal/watch-test-4/configuration:/.helix/config.json",
+      "/content/pbakliwal/watch-test-4/metadata:/metadata.json",
+      "/content/pbakliwal/watch-test-4/configs:/configs.json",
+      "/content/pbakliwal/watch-test-4/configs-stage:/configs-stage.json",
+      "/content/pbakliwal/watch-test-4/configs-dev:/configs-dev.json",
+      "/content/pbakliwal/watch-test-4/redirects:/redirects.json",
+      "/content/pbakliwal/watch-test-4/placeholders:/placeholders.json",
+      "/content/pbakliwal/watch-test-4/products/recommended-products:/products/recommended-products.json",
+      "/content/pbakliwal/watch-test-4/enrichment/enrichment:/enrichment/enrichment.json",
+      "/content/pbakliwal/watch-test-4/images/products/:/images/products/"
+    ],
+    "includes": [
+      "/content/pbakliwal/watch-test-4",
+      "/content/dam/citisignal/images/products/"
+    ]
 }
